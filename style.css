@@ -716,6 +716,27 @@ section{
     width: 100%;
     
 }
+.sucees-mail{
+    display: inline-flex;
+    color: green;
+    align-items: center;
+    display: none;
+}
+.sucees-show{
+    display: inline-flex;
+    display: block;
+}
+.sucees-mail i{
+    font-size: 20px;
+    margin-right: 3px;
+}
+.error-mail{
+    color: red;
+    display: none;
+}
+.show-error{
+    display: block;
+}
 .contact-form input{
     width: 90%;
     margin: 15px 0;
