@@ -496,14 +496,18 @@ section{
 }
 .skills-left .skill-bar .bar .figma{
     width: 80%;
-    animation: figma 4s;
+    animation: figma 7s;
 }
 .skills-left .skill-bar .bar .javascript{
     width: 70%;
-    animation: javascript 5s;
+    animation: javascript 4s;
 }
 .skills-left .skill-bar .bar .css{
     width: 75%;
+    animation: css 5s;
+}
+.skills-left .skill-bar .bar .react{
+    width: 85%;
     animation: css 6s;
 }
 /* skills right  */
@@ -659,7 +663,8 @@ section{
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: linear-gradient(rgba(0,0,0,.2), #12f7ff);
+    /* background: linear-gradient(rgba(0,0,0,.2), #12f7ff); */
+    background: linear-gradient(rgba(0,0,0,.2), #000);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -692,10 +697,14 @@ section{
     height: 50px;
     border: 1px solid var(--hover-color);
     outline: 2px solid #fff;
+    margin: 0px 5px;
 }
 .port-content a i{
     font-size: 1.3rem;
     color: var(--secon-bg-color);
+}
+.a-tagpro{
+    display: flex;
 }
 
 
