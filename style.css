@@ -1010,3 +1010,51 @@ footer{
     }
     
 }
+
+
+/* preloader code start */
+#preloader-area {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  #preloader-area::after,
+  #preloader-area::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    background-color: #212121;
+    transition: 0.7s ease-in-out;
+  }
+  
+  #preloader-area::before {
+    left: 0;
+  }
+  
+  #preloader-area::after {
+    right: 0;
+  }
+  
+  
+  .page-loaded .spinner-border {
+    display: none;
+  
+  }
+  
+  #preloader-area.page-loaded::after {
+    right: -50%;
+  }
+  
+  #preloader-area.page-loaded::before {
+    left: -50%;
+  }
